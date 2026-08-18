@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menuplan – Wochenmenü aus Fooby &amp; Migusto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Dein persönlicher Menuplan</div>
+    <h1>Eine Woche kochen, ohne jeden Tag neu zu überlegen.</h1>
+    <p class="sub">Rezepte aus Fooby, Migusto &amp; Co. filtern, in den Wochenplan ziehen und direkt auf der Original-Seite kochen. Die Einkaufsliste baut sich automatisch aus deinem Plan zusammen.</p>
+  </div>
+</header>
+
+<div class="week-board">
+  <div class="section-title" style="margin-bottom:10px;">
+    <h2 style="font-size:1.1rem; color:var(--basil);">Dein Wochenplan</h2>
+    <span class="tally" id="weekCount"></span>
+  </div>
+  <div class="week-grid" id="weekGrid"></div>
+</div>
+
+<div class="shop-bar">
+  <span class="count" id="shopCount"></span>
+  <div style="display:flex; gap:8px; flex-wrap:wrap;">
+    <button class="btn ghost" id="copyListBtn" type="button">Liste kopieren</button>
+    <button class="btn ghost" id="shareListBtn" type="button">Für Bring teilen</button>
+    <button class="btn" id="exportBtn" type="button">Fortschritt exportieren</button>
+    <label class="btn ghost" style="cursor:pointer;">
+      Fortschritt importieren
+      <input type="file" id="importInput" accept="application/json" style="display:none;">
+    </label>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="shoplist-panel">
+    <div class="section-title">
+      <h2>Einkaufsliste dieser Woche</h2>
+    </div>
+    <div id="shopList"></div>
+    <textarea class="share-preview" id="sharePreview" style="display:none;" readonly></textarea>
+    <p class="hint">"Für Bring teilen" öffnet die Teilen-Funktion deines Handys – dort Bring auswählen. Es gibt (noch) keinen offiziellen Weg, einzelne Zutaten per Link direkt in Bring einzutragen; "Liste kopieren" funktioniert auf jedem Gerät als Alternative zum Einfügen in Bring.</p>
+  </section>
+
+  <div class="section-title">
+    <h2>Rezepte</h2>
+    <span class="tally" id="recipeTally"></span>
+  </div>
+
+  <div class="filters">
+    <button class="chip season-sommer active" data-season="alle">Alle Saisons</button>
+    <button class="chip season-sommer" data-season="sommer">☀️ Sommer</button>
+    <button class="chip season-herbst" data-season="herbst">🍂 Herbst</button>
+  </div>
+  <div class="filters">
+    <button class="chip active" data-type="alle">Alle</button>
+    <button class="chip" data-type="vegetarisch">Vegetarisch</button>
+    <button class="chip" data-type="vegan">Vegan</button>
+    <button class="chip" data-type="fleisch">Mit Fleisch</button>
+    <button class="chip" id="balancedToggle">Nur ausgewogen</button>
+  </div>
+
+  <div class="recipe-grid" id="recipeGrid"></div>
+
+  <div style="margin-top:40px;">
+    <div class="section-title"><h2>Eigenes Rezept hinzufügen</h2></div>
+    <form class="add-form" id="addRecipeForm">
+      <label class="full">Titel
+        <input type="text" name="title" required placeholder="z. B. Omas Rüeblitopf">
+      </label>
+      <label>Link zum Rezept (optional)
+        <input type="url" name="url" placeholder="https://…">
+      </label>
+      <label>Dauer in Minuten (optional)
+        <input type="number" name="time" min="0" placeholder="30">
+      </label>
+      <label>Art
+        <select name="type">
+          <option value="vegetarisch">Vegetarisch</option>
+          <option value="vegan">Vegan</option>
+          <option value="fleisch">Mit Fleisch</option>
+        </select>
+      </label>
+      <label style="flex-direction:row; align-items:center; gap:6px;">
+        <input type="checkbox" name="balanced" style="width:auto;"> Gesund &amp; ausgewogen
+      </label>
+      <div class="full season-check">
+        <span style="font-size:0.76rem; font-weight:700; color:var(--basil);">Saison:</span>
+        <label><input type="checkbox" name="season" value="sommer"> Sommer</label>
+        <label><input type="checkbox" name="season" value="herbst"> Herbst</label>
+      </div>
+      <label class="full">Zutaten (eine pro Zeile, optional)
+        <textarea name="ingredients" rows="4" placeholder="200 g Rüebli&#10;1 Zwiebel&#10;…"></textarea>
+      </label>
+      <div class="full">
+        <button class="btn rust" type="submit">Rezept hinzufügen</button>
+      </div>
+    </form>
+  </div>
+
+</main>
+
+<footer class="note">
+  Rezepte verlinken auf die Original-Websites von Migusto, Fooby, little FOOBY und Betty Bossi – Zubereitung findet dort statt.
+  Dein Fortschritt (gekochte Rezepte, eigene Rezepte, Wochenplan) liegt nur in deinem Browser (localStorage). Nutze
+  "Fortschritt exportieren", um ihn zu sichern oder auf ein anderes Gerät zu übertragen, und "Fortschritt importieren",
+  um eine zuvor exportierte Datei wieder einzulesen.
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
