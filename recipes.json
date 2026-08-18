@@ -5,7 +5,9 @@
     "url": "https://migusto.migros.ch/de/rezepte/suesskartoffeleintopf-mit-linsen",
     "source": "Migusto",
     "image": "https://recipeimages.migros.ch/crop/v-w-1200-h-630-a-center_center/181ce0e5613b3a8575e86948634552dbbd5cea8e/suesskartoffeleintopf-mit-linsen-0-16-9.jpg",
-    "season": ["herbst"],
+    "season": [
+      "herbst"
+    ],
     "type": "vegan",
     "balanced": true,
     "time": 25,
@@ -31,7 +33,9 @@
     "url": "https://migusto.migros.ch/de/rezepte/gnocchi-mit-speck-und-broccoli",
     "source": "Migusto",
     "image": "https://recipeimages.migros.ch/crop/v-w-1200-h-630-a-center_center/8bb59c140eebb3ba31320804e406b0f8ba161c95/gnocchi-mit-speck-und-broccoli-0-16-9.jpg",
-    "season": ["herbst"],
+    "season": [
+      "herbst"
+    ],
     "type": "fleisch",
     "balanced": false,
     "time": 15,
@@ -51,7 +55,10 @@
     "url": "https://migusto.migros.ch/de/rezepte/polenta-mit-tomaten-salsa",
     "source": "Migusto",
     "image": "https://recipeimages.migros.ch/crop/v-w-1200-h-630-a-center_center/51feee7f662392ad2a9553b56e20495455f126a2/polenta-mit-tomaten-salsa-0-16-9.jpg",
-    "season": ["sommer", "herbst"],
+    "season": [
+      "sommer",
+      "herbst"
+    ],
     "type": "vegetarisch",
     "balanced": false,
     "time": 15,
@@ -74,7 +81,9 @@
     "url": "https://fooby.ch/de/rezepte/27510/sambar--indisches-linsen-gemuese-curry-",
     "source": "Fooby",
     "image": "https://recipecontent.fooby.ch/27510_3-2_1200-800.jpg",
-    "season": ["herbst"],
+    "season": [
+      "herbst"
+    ],
     "type": "vegan",
     "balanced": true,
     "time": 85,
@@ -102,7 +111,9 @@
     "url": "https://fooby.ch/de/rezepte/21518/zucchetti-ricotta-pasta",
     "source": "Fooby",
     "image": "https://recipecontent.fooby.ch/21518_3-2_1200-800.jpg",
-    "season": ["sommer"],
+    "season": [
+      "sommer"
+    ],
     "type": "vegetarisch",
     "balanced": true,
     "time": 30,
@@ -126,7 +137,9 @@
     "url": "https://fooby.ch/de/rezepte/14828/steinpilzrisotto-mit-geroesteten-haselnuessen",
     "source": "Fooby",
     "image": "https://recipecontent.fooby.ch/14828_3-2_1200-800.jpg",
-    "season": ["herbst"],
+    "season": [
+      "herbst"
+    ],
     "type": "vegetarisch",
     "balanced": false,
     "time": 30,
@@ -153,7 +166,9 @@
     "url": "https://little.fooby.ch/de/rezepte/29195/knoepfli-pfanne",
     "source": "little FOOBY",
     "image": "https://recipecontent.fooby.ch/29195_3-2_1200-800.jpg",
-    "season": ["sommer"],
+    "season": [
+      "sommer"
+    ],
     "type": "vegetarisch",
     "balanced": false,
     "time": 70,
@@ -182,7 +197,9 @@
     "url": "https://www.bettybossi.ch/de/rezepte/rezept/huttenkase-wraps-10011690/",
     "source": "Betty Bossi",
     "image": "",
-    "season": ["sommer"],
+    "season": [
+      "sommer"
+    ],
     "type": "vegetarisch",
     "balanced": false,
     "time": 50,
@@ -206,7 +223,9 @@
     "url": "https://www.bettybossi.ch/de/rezepte/rezept/zitronenpasta-pasta-al-limone-10011190/",
     "source": "Betty Bossi",
     "image": "",
-    "season": ["sommer"],
+    "season": [
+      "sommer"
+    ],
     "type": "vegetarisch",
     "balanced": false,
     "time": 35,
@@ -235,7 +254,9 @@
     "url": "https://fooby.ch/de/rezepte/23363/veganer-bbq-taco",
     "source": "Fooby",
     "image": "https://recipecontent.fooby.ch/23363_3-2_1200-800.jpg",
-    "season": ["sommer"],
+    "season": [
+      "sommer"
+    ],
     "type": "vegan",
     "balanced": false,
     "time": 15,
@@ -248,6 +269,150 @@
       "4 Taco Shells",
       "1 Zwiebel, in feine Ringe gehobelt",
       "½ Bund Koriander, Blätter abgezupft"
+    ]
+  },
+  {
+    "id": "fooby-vegane-thai-erdnuss-ramen",
+    "title": "Vegane Thai Erdnuss-Ramen",
+    "url": "https://fooby.ch/de/rezepte/23222/vegane-thai-erdnuss-ramen",
+    "source": "Fooby",
+    "image": "https://recipecontent.fooby.ch/23222_3-2_1200-800.jpg",
+    "season": [
+      "herbst"
+    ],
+    "type": "vegan",
+    "balanced": false,
+    "time": 30,
+    "servings": 4,
+    "ingredients": [
+      "1 EL Erdnussöl",
+      "2 Knoblauchzehen, gepresst",
+      "20 g Ingwer, fein gerieben",
+      "3 EL vegane rote Currypaste",
+      "8 dl Gemüsebouillon",
+      "5 dl Kokosmilch light",
+      "100 g Erdnussbutter",
+      "2 EL Sojasauce",
+      "1 Rüebli, in feinen Streifen",
+      "1 Pak Choi, in feinen Streifen",
+      "260 g Tofu nature, in ca. 1 cm grossen Würfeln",
+      "¾ EL Maizena",
+      "1½ EL Erdnussöl",
+      "2 EL Sojasauce",
+      "1 EL Agavensirup",
+      "250 g Ramen-Nudeln",
+      "Salzwasser, siedend",
+      "40 g gesalzene Erdnüsse",
+      "½ Bund Koriander, Blätter abgezupft"
+    ]
+  },
+  {
+    "id": "fooby-spaghettini-pilz-one-pot",
+    "title": "Spaghettini-Pilz One-Pot",
+    "url": "https://fooby.ch/de/rezepte/16576/spaghettini-pilz-one-pot",
+    "source": "Fooby",
+    "image": "https://recipecontent.fooby.ch/16576_3-2_1200-800.jpg",
+    "season": [
+      "herbst"
+    ],
+    "type": "vegetarisch",
+    "balanced": false,
+    "time": 15,
+    "servings": 2,
+    "ingredients": [
+      "200 g Spaghettini, halbiert",
+      "30 g getrocknete Steinpilze",
+      "4 dl Milch",
+      "2 dl Wasser",
+      "1 TL Salz",
+      "40 g geriebener Parmesan",
+      "wenig Pfeffer"
+    ]
+  },
+  {
+    "id": "migusto-suess-saure-asia-nudeln",
+    "title": "Süss-saure Asia-Nudeln",
+    "url": "https://migusto.migros.ch/de/rezepte/suess-saure-asia-nudeln",
+    "source": "Migusto",
+    "image": "https://recipeimages.migros.ch/crop/v-w-1200-h-630-a-center_center/9a89d48bff6b8687634ba140a2f9bd75e92403e0/suess-saure-asia-nudeln-0-16-9.jpg",
+    "season": [
+      "sommer"
+    ],
+    "type": "vegan",
+    "balanced": false,
+    "time": 20,
+    "servings": 4,
+    "ingredients": [
+      "125 g Mie Noodles",
+      "Salz",
+      "½ rote Zwiebel",
+      "1½ EL Öl zum Braten",
+      "200 g Asia-Gemüsemischung",
+      "100 g Ananaswürfel",
+      "1 Limette",
+      "75 g süsse Chilisauce",
+      "ca. 1½ EL Sojasauce"
+    ]
+  },
+  {
+    "id": "migusto-veganes-pulled-bbq-pilze-spaetzli",
+    "title": "Veganes Pulled BBQ mit Pilzen und Spätzli",
+    "url": "https://migusto.migros.ch/de/rezepte/veganes-pulled-bbq-mit-pilzen-und-spaetzli",
+    "source": "Migusto",
+    "image": "https://recipeimages.migros.ch/crop/v-w-1200-h-630-a-center_center/33425bb00a550f09e6c154dd989c4c2ba5ec2e88/veganes-pulled-bbq-mit-pilzen-und-spaetzli-0-16-9.jpg",
+    "season": [
+      "sommer"
+    ],
+    "type": "vegan",
+    "balanced": false,
+    "time": 30,
+    "servings": 4,
+    "ingredients": [
+      "3 Knoblauchzehen",
+      "150 g Pilze, z. B. Kräuterseitlinge",
+      "3 EL Rapsöl",
+      "360 g Fleischersatz, z. B. Planted Pulled BBQ",
+      "Pfeffer",
+      "4 EL vegane Crème fraîche",
+      "½ Bund Kräuter, z. B. Petersilie",
+      "3 EL Röstzwiebeln",
+      "350 g Mehl, z. B. Chnöpflimehl",
+      "2 EL Maisstärke",
+      "1½ TL Salz",
+      "¼ TL Kurkuma",
+      "3,5 dl Haferdrink",
+      "2 EL Olivenöl",
+      "Salz"
+    ]
+  },
+  {
+    "id": "bettybossi-pizza-cherrytomaten-mozzarella",
+    "title": "Pizza mit Cherrytomaten & Mozzarella",
+    "url": "https://www.bettybossi.ch/de/rezepte/rezept/pizza-mit-cherrytomaten-mozzarella-10005882/",
+    "source": "Betty Bossi",
+    "image": "",
+    "season": [
+      "sommer"
+    ],
+    "type": "vegetarisch",
+    "balanced": false,
+    "time": 15,
+    "servings": 4,
+    "note": "Mengenangaben auf der Betty-Bossi-Seite nur nach Login sichtbar – Zutaten hier ohne Mengen, bitte beim Kochen auf der Seite selbst nachschauen.",
+    "ingredients": [
+      "Pizzateig",
+      "pürierte oder passierte Tomaten",
+      "Salz",
+      "Pfeffer",
+      "getrockneter Basilikum",
+      "Olivenöl",
+      "Mozzarella",
+      "Rucola",
+      "mittelgrosse Zwiebel",
+      "Cherry-Tomaten",
+      "schwarze Oliven",
+      "Oregano",
+      "geriebener Käse"
     ]
   }
 ]
